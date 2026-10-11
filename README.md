@@ -11,6 +11,12 @@ chains it finds. `cargo tree` shows one crate's own dependency tree
 "which of *my own* crates depend on which other of my own crates," and
 nothing outside that set becomes a graph node.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
